@@ -1,14 +1,26 @@
+/* Global */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+a {
+    color: #ffffff;
+    text-decoration: none;
+  
+}
+
 body {
     background-color: #d9dcd6;
 }
 
+p {
+    font-size: 16px;
+}
+/* header styles */
 header {
+   
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
@@ -24,7 +36,8 @@ header h1 .seo {
     color: #d9dcd6;
 }
 
-header nav {
+/* nav styling */
+nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,20 +45,16 @@ header nav {
     font-size: 20px;
 }
 
-header nav ul {
+nav ul {
     list-style-type: none;
 }
 
-header nav ul li {
+nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
+/* (figure tag) banner style */
 #hero {
     height: 800px;
     width: 100%;
@@ -55,10 +64,7 @@ a {
     background-position: center;
 }
 
-p {
-    font-size: 16px;
-}
-
+/* main styling */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -74,8 +80,8 @@ main {
     display: inline-block;
     margin-left: 20px;
 }
-/* condensed all the seperate div classes, img classes, and h2 to just .content div, img, and h2 */
-main div {
+
+main article {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -83,16 +89,17 @@ main div {
     background-color: #0072bb;
     color: #ffffff;
 }
-/* all img properties in the content div */
+
 main img {
     max-height: 200px;
 }
-/* all h2 property, didn't want to do just h2 tag in case they are added somewhere else in webpage in the future */
+
 main h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* aside styling */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -106,20 +113,19 @@ aside {
     color: #ffffff;
 }
 
-/* Did the same here for the benefits div. I also moved up the font color and bottom margin to the benefits class */
 aside h3 {
     margin-top: 20px;
     margin-bottom: 10px;
     text-align: center;
 }
-/* all img tags in the benefits div  */
+
 aside img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-/* Don't think anything below is necessary but i just commented it out. */
+/* footer styling */
 footer {
     padding: 30px;
     clear: both;
