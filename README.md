@@ -6,7 +6,7 @@ This assignment was to take a particular website, refactor the code, and also ma
 
 ## Screenshot
 
-![Screenshot_of_website](./assets\images\Screenshotofsite.png)
+![Screenshot_of_website](./assets/images/Screenshotofsite.png)
 
 ## Links
 
